@@ -18,8 +18,11 @@ int main() {
         }
         cout << "Enter the number: ";
         cin >> num1;
-        cout << "\nEnter another number: ";
-        cin >> num2;
+        if (operation != "sqrt") {
+      
+            cout << "\nEnter another number: ";
+            cin >> num2;
+        }
         if (operation == "+") {
             cout << num1 + num2 << endl;
         
@@ -29,8 +32,21 @@ int main() {
         }
         else if (operation == "*") {
             cout << num1 * num2 << endl;
+        }
         else if (operation == "/") {
             cout << num1 / num2 << endl;
+        }
+        else if (operation == "%") {
+            double remainder = fmod(num1, num2) 
+            cout << remainder << endl;
+        }
+        else if (operation == "pow") {
+            double pow = pow(num1, num2) 
+            cout << pow << endl;
+        }
+        else if (operation == "sqrt") {
+            double sqrt = sqrt(num1) 
+            cout << sqrt << endl;
         }
     }
     return 0;
