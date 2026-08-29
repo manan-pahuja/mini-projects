@@ -37,16 +37,16 @@ int main() {
             cout << num1 / num2 << endl;
         }
         else if (operation == "%") {
-            double remainder = fmod(num1, num2) 
+            double remainder = fmod(num1, num2); 
             cout << remainder << endl;
         }
         else if (operation == "pow") {
-            double pow = pow(num1, num2) 
-            cout << pow << endl;
+            double pow1 = pow(num1, num2); 
+            cout << pow1 << endl;
         }
         else if (operation == "sqrt") {
-            double sqrt = sqrt(num1) 
-            cout << sqrt << endl;
+            double sqrt1 = sqrt(num1); 
+            cout << sqrt1 << endl;
         }
     }
     return 0;
