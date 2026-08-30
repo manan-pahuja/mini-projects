@@ -3,6 +3,6 @@
 using namespace std;
 
 int main() {
-    cout << "\tWELCOM TO NUMBER GUESSING GAME\n";
+    cout << "\t\tWELCOME TO NUMBER GUESSING GAME\n";
     return 0;
 }
